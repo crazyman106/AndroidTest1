@@ -1,6 +1,10 @@
 package com.ljj;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.text.Layout;
+import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
@@ -28,6 +32,7 @@ public class DragTV extends android.support.v7.widget.AppCompatTextView {
     public DragTV(Context context) {
         this(context, null);
     }
+
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
